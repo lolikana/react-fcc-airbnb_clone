@@ -1,0 +1,40 @@
+.section-hero {
+    display: flex;
+    flex-direction: column;
+}
+// .hero--imgs {
+//     width: 395px;
+//     height: 230px;
+//     margin: 30px auto;
+
+//     // display: flex;
+//     // flex-flow: row wrap;
+//     // justify-content: center;
+//     // align-items: center;
+//     // gap: .5rem;
+
+//     display: grid;
+//     grid-template-columns: repeat(5, 1fr);
+//     grid-template-rows: repeat(2, 1fr);
+//     align-items: center;
+// }
+
+.hero-{
+    &-img-2 {
+        max-width: 600px;
+        align-self: center;
+    }
+
+    &-legend- {
+        max-width: 345px;
+        
+        &-header{
+            margin-bottom: 1rem;
+        }
+    
+        &-text {
+            margin-top: 0;
+        }
+    }
+
+}

@@ -1,0 +1,11 @@
+nav {
+    height: 70px;
+    display: flex;
+    background-color: var(--background);
+    padding: 20px 36px;
+    box-shadow: var(--box-shadow);
+}
+
+.nav--logo {
+    max-width: 100px;
+}

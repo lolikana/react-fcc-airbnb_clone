@@ -1,0 +1,40 @@
+:root {
+    --background: #ffffff;
+    --background-secondary: #0000ff;
+    --text-primary: #000000;
+    --text-secondary: #4169e1;
+    --text-tertiary: #808080;
+    --accent: #800080;
+
+    --box-shadow: 0px 3px 7px rgba(0, 0, 0, .1);
+
+  }
+  
+  [data-theme='dark'] {
+    --background: #000000;
+    --background-secondary: #ffffff;
+    --text-primary: #ffffff;
+    --text-secondary: #808080;
+    --text-tertiary: #b6b6b6;
+    --accent: #8b0000;
+
+    --box-shadow: 0px 3px 7px rgba(255, 255, 255, .3);
+
+  }
+
+.set-theme-mode {
+    color: var(--text-primary);
+    background-color: var(--background);
+    transition: all .5s;
+
+    &-btn {
+        color: var(--text-primary);
+        background-color: var(--background);
+        border: 2px var(--text-primary) solid;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        transition: all .5s;
+        padding: .1rem .5rem;
+    };   
+}
