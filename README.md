@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<a href="https://stately-panda-7373dc.netlify.app/">Live Preview</a> with Netlify.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
