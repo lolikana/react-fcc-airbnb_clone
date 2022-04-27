@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+
+  .hero--img-2 {
+    max-width: 400px;
+  }
+
+  .hero--legend {
+    margin-top: 1rem;
+  }
+
+  .section-card {
+    justify-content: center;
+  }
+}

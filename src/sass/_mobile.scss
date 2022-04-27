@@ -1,4 +1,5 @@
 @media only screen and (max-width: 600px) {
+
     h1 {
         font-size: 1.5rem;
     }
@@ -9,7 +10,7 @@
     }
 
     .hero--img-2 {
-        max-width: 400px;
+        max-width: 100%;
     }
 
     .hero--legend {
@@ -18,5 +19,36 @@
 
     .section-card { 
         justify-content: center;
+        padding: 0;
+    }
+
+    .card {
+        &-template {
+            margin: 1rem .5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section-hero {
+        justify-content: center;
+    }
+
+    .hero--legend {
+        text-align: center;
+    }
+    
+    .section-card {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-template {
+        width: 140px;
+        justify-self: center;
+    }
+
+    .card-img {
+        height: 140px;
     }
 }
