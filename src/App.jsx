@@ -4,7 +4,7 @@ import './App.css';
 
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
-import Card from './components/card/Card';
+import CardList from './components/card/CardList';
 
 const App = () => {
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -27,7 +27,7 @@ const App = () => {
         </div>
       <Navbar />
       <Hero />
-      <Card />
+      <CardList />
       </div>
     </>
   );
